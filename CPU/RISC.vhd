@@ -1,6 +1,6 @@
 ----------------------------------------------------------------------------------
 -- Company: 
--- Engineer: 
+-- Engineer: Davi Medeiros
 -- 
 -- Create Date: 12.09.2024 20:49:55
 -- Design Name: 
@@ -47,7 +47,7 @@ signal s_clk: std_logic;
 signal s_data: std_logic_vector(7 downto 0);
 
 
---Memória
+--MemÃ³ria
 signal s_addr: std_logic_vector(4 downto 0);
 signal s_wr: std_logic;
 signal s_rd: std_logic;
