@@ -9,10 +9,10 @@ generic(
     );
     Port (
         clk     : in  std_logic; 
-        ir_addr     : in  std_logic_vector(WIDTH-1 downto 0);           
-        pc_addr     : in  std_logic_vector(WIDTH-1 downto 0);           
+        ir_addr : in  std_logic_vector(WIDTH-1 downto 0);           
+        pc_addr : in  std_logic_vector(WIDTH-1 downto 0);           
         sel     : in  std_logic; 
-        addr : out std_logic_vector(WIDTH-1 downto 0)  
+        addr    : out std_logic_vector(WIDTH-1 downto 0)  
     );
 end andress_mux;
 
