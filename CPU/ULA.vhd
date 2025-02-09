@@ -30,9 +30,9 @@ with opcode select
 
 result <= s_hlt when "000",
 		s_skz when "001",
-	 	s_add   when "010",
+	 	s_add when "010",
 		s_and when "011",
-   	    s_xor   when "100",
+   	        s_xor when "100",
 		s_lda when "101",
 		s_sto when "110",
 		s_jmp when "111",
